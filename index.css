@@ -9,7 +9,6 @@ html {
 }
 body {
   overflow-y: overlay;
-
   font-family: Helvetica, serif;
 }
 
@@ -104,11 +103,11 @@ i {
 }
 .body {
   padding-left: 131px;
-  padding-top: 131px;
+  padding-top: 103px;
 }
 
 .body__ul {
-  margin-bottom: 103px;
+  margin-bottom: 90px;
   width: 923px;
 }
 
@@ -116,7 +115,7 @@ i {
   width: 100%;
 }
 .body__ul--li:nth-of-type(1) {
-  font-family: New York Extra Large;
+  font-family: "New York Extra Large";
   margin-bottom: 26px;
   font-size: 44px;
   font-weight: 700;
@@ -125,7 +124,8 @@ i {
 }
 .span__li {
   width: 923px;
-  font-family: "SF Mono";
+  font-family: "SF Pro Display", sans-serif;
+  word-spacing: 5px;
   font-size: 20px;
   font-weight: 400;
   line-height: 23.87px;
@@ -145,14 +145,18 @@ i {
   margin-top: 15px;
   background: #000000;
 }
-.title {
+
+.title__name {
+  font-family: "SF Pro Display", sans-serif;
+  margin-bottom: 26px;
+  display: flex;
+  align-items: center;
   width: 535px;
   height: 53px;
   font-size: 44px;
   font-weight: 700;
   line-height: 52.51px;
   text-align: left;
-  margin-top: 24px;
 }
 .nav {
   width: 100%;
@@ -164,9 +168,15 @@ i {
 .nav__li {
   margin-top: 15px;
   font-size: 20px;
-  font-family: "SF Mono";
+  font-family: "SF Pro Display", sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 23.87px;
   text-align: left;
+  word-spacing: 5px;
+}
+
+/* heght */
+
+.li__1 {
 }
